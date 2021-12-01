@@ -6,3 +6,6 @@ también escuchar música
 
 Quiero aprender a programar
 para poder crear
+
+Aprendiendo a usar git
+y también github
