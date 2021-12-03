@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    <title>Document</title>
+</head>
+<body>
+    <!-- etiqueta para tablas -->
+    <table border="1">
+        <!-- una tabla está compuesta por una cabecera y cuerpo -->
+        <!-- existe el table header que es la cabecera -->
+        <!-- es la parte estática de una tabla porque básicamente tiene como datos a los títulos de la cabecera -->
+        <thead>
+            <!-- es el contenedor de mi cabecera -->
+            <!-- para poder definir los elementos de mi cabecera deben estar dentro de una fila -->
+            <tr>
+                <!-- una fila está compuesta de varios elementos -->
+                <!-- Para definir un elemento debe estar dentro de una celda -->
+                <!-- Cuando es una cabecera la etiqueta del elmento se llama th -->
+                <th>Nombre</th>
+                <th>Apellido</th>
+                <th>Celular</th>
+                <th>Correo</th>
+                <th>Fecha de Nacimiento</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- al igual que thead tenía filas, también tbody -->
+            <tr>
+                <!-- los elementos que están dentro de una fila en el cuerpo de la tabla se llaman td -->
+                <td>LeRaD</td>
+                <td>López</td>
+                <td>951958574</td>
+                <td>xdarelx@gmail.com</td>
+                <td>02/04/1987</td>
+            </tr>
+            <tr>
+                <td>Lucas</td>
+                <td>Zapata</td>
+                <td>965175365</td>
+                <td>lucazapata@gmail.com</td>
+                <td>01/05/1985</td>
+                
+            </tr>
+        </tbody>
+    </table>
+    <table border="1" bgcolor="#ff01">
+        <h2>Tabla Sin Head y Sin Body</h2>
+        <tr>
+            <td>Curso</td>
+            <td>Profesor</td>
+            <td>Cantidad de Alumnos</td>
+            <td>Hora</td>
+        </tr>
+        <tr>
+            <td>Html</td>
+            <td>Juan</td>
+            <td>50</td>
+            <td>10:00</td>
+        </tr>
+    </table>
+    <h2>Tabla de usuario con imágenes</h2>
+    <table border="1">
+       <thead>
+           <tr>
+               <th>Nombre</th>
+               <th>Apellidos</th>
+               <th>Edad</th>
+               <th>Foto</th>
+               <th>Github</th>
+           </tr>
+       </thead> 
+       <tbody>
+           <tr>
+               <td>Juan</td>
+               <td>Quispe</td>
+               <td>28</td>
+               <td>
+                   <img
+                   src="https://www.semana.com/resizer/7Kh9ChxDtPIEoQh1V5whUzqtgPQ=/1200x675/filters:format(jpg):quality(50)//cloudfront-us-east-1.images.arcpublishing.com/semana/V62OWSZGEBD3HHMPFTLXY6H3YA.jpg"
+                   width="85"
+                   Alt="Juan"
+                   >
+               </td>
+               <td>
+                   <a href="https://www.semana.com/gente/articulo/exmanager-de-juan-gabriel-aseguro-que-el-divo-de-juarez-tiene-dos-hijos-no-reconocidos/202123/">Link </a>
+               </td>
+           </tr>
+       </tbody>
+    </table>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Nombre</th>
+                <th>Apellido</th>
+                <th>Edad</th>
+                <th>Correo</th>
+                <th colspan="3">Foto y Número</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td colspan="2">Juan Perez</td>
+                <td>22</td>
+                <td>Juan@gmail.com</td>
+                <td><img src="https://upload.wikimedia.org/wikipedia/commons/7/77/Juan_P%C3%A9rez_de_Montalb%C3%A1n.jpg" width="85"></td>
+                <td>9999999</td>
+                <td>xd</td>
+            </tr>
+        </tbody>
+    </table>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>curso</th>
+                <th>nombre</th>
+                <th>apellido</th>
+                <th>edad</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="3">PHP</td>
+                <td>Juan</td>
+                <td>Perez</td>
+                <td>30</td>
+            </tr>
+            <tr>
+                <td>Javascript</td>
+                <td>Juan</td>
+                <td>Perez</td>
+                <td>30</td>
+            </tr>
+            <tr>
+                <td>CSS</td>
+                <td>Juan</td>
+                <td>Perez</td>
+                <td>30</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>

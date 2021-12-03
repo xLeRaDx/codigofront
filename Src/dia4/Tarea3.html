@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tarea3</title>
+  </head>
+  <body>
+    <h1>EJEMPLO 1</h1>
+    <h2>
+      <strong>Los campos marcados con * son de inserción obligatoria</strong>
+    </h2>
+    <table>
+      <thead>
+        <tr>
+          <th></th>
+          <th></th>
+        </tr>
+      </thead>
+      <form action="">
+        <tbody>
+          <tr>
+            <td>Asunto:</td>
+            <td><input type="text" /></td>
+          </tr>
+          <tr>
+            <td>*Primer Apellido</td>
+            <td><input type="text" required /></td>
+          </tr>
+          <tr>
+            <td>Segundo Apellido</td>
+            <td><input type="text" /></td>
+          </tr>
+          <tr>
+            <td>*Nombre</td>
+            <td><input type="text" required /></td>
+          </tr>
+          <tr>
+            <td>D.N.I. / Pasaporte / N.I.E</td>
+            <td><input type="number" /></td>
+          </tr>
+          <tr>
+            <td>*Correo</td>
+            <td><input type="email" required /></td>
+          </tr>
+          <tr>
+            <td>*Teléfono</td>
+            <td><input type="number" /></td>
+          </tr>
+          <tr>
+            <td>¿Sobre qué?:</td>
+            <td>
+              <select>
+                <option value=""></option>
+                <option value="CSS">CSS</option>
+                <option value="Js">Javascript</option>
+              </select>
+            </td>
+          </tr>
+          <tr>
+            <td>¿Qué va a escribir?:</td>
+            <td>
+              <select>
+                <option value=""></option>
+                <option value="artículo">artículo</option>
+                <option value="ensayo">ensayo</option>
+              </select>
+            </td>
+          </tr>
+          <tr>
+            <td>*Texto del escrito</td>
+            <td>
+              <textarea
+                placeholder="ingrese su texto"
+                name="text_escrito"
+                rows="10"
+                cols="80"
+                required
+              >
+              </textarea>
+            </td>
+          </tr>
+        </tbody>
+      </form>
+    </table>
+    <h5>Los datos personales facilitados son susceptibles de cesión cuando ésta sea precisa para tramitar su contestación</h5>
+    <form>
+        <button type="submit">enviar</button>
+    </form>
+  </body>
+</html>
