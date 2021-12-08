@@ -1,12 +1,18 @@
 h2{
     font-size: 24px;
     font-family: arial;
+    color: black;
 }
 p{
     font-size: 16px;
     font-family: arial;
+    color: black;
+    
 }
-
+img{
+    width: 385;
+    height: 182px;
+}
 a {
     color: inherit;
     text-decoration: none;
@@ -28,6 +34,11 @@ body {
 .header .logo {
     font-size: 32px;
     padding-left: 3%;
+    margin-left: 3%;
+}
+.header .lista1{
+    padding-right: 2%;
+    margin-right: 2%;
 }
 .header ul {
     display: flex;
@@ -36,4 +47,16 @@ body {
 }
 .header ul li {
     margin-left: 25px;
+}
+.main .fotos1{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 25px;
+}
+.main .HOME{
+    color: #3B06D2;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-style: normal;
 }
