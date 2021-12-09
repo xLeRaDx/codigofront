@@ -7,7 +7,6 @@ p{
     font-size: 16px;
     font-family: arial;
     color: black;
-    
 }
 img{
     width: 385;
@@ -33,8 +32,8 @@ body {
 }
 .header .logo {
     font-size: 32px;
-    padding-left: 3%;
-    margin-left: 3%;
+    padding-left: 1%;
+    margin-left: 1%;
 }
 .header .lista1{
     padding-right: 2%;
@@ -52,11 +51,112 @@ body {
     display: flex;
     justify-content: space-around;
     margin-top: 25px;
+    margin-left: 5%;
 }
 .main .HOME{
     color: #3B06D2;
     margin-top: 25px;
     margin-bottom: 10px;
+    margin-left: 2%;
     font-weight: bold;
     font-style: normal;
+}
+.main .section1 .p1{
+    margin-left: 2%;
+    margin-right: 4%;
+    text-align: justify;
+}
+.main .SERVICIOS{
+    color: #D206B2;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    margin-left: 2%;
+    font-weight: bold;
+    font-style: normal;
+}
+.main .section2 .p1{
+    margin-left: 2%;
+    margin-right: 4%;
+    text-align: justify;
+}
+.main .section2 .lista2 {
+    color: black;
+    margin-top: 25PX;
+    list-style: NONE;
+    margin-left: 2%;
+}
+.main .section2 .lista2 ul li:nth-child(1) {
+    color: #FF0000;
+}
+.main .section2 .lista2 ul li:nth-child(2) {
+    color: blue;
+}
+.main .section2 .lista2 ul li:nth-child(3) {
+    color: orange;
+}
+.main .section2 .lista2 ul li:nth-child(4) {
+    color: green;
+}
+.main .PORTAFOLIO{
+    color: #AAD206;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    margin-left: 2%;
+    font-weight: bold;
+    font-style: normal;
+}
+.main .section3 .p1{
+    margin-left: 2%;
+    margin-right: 4%;
+    text-align: justify;
+}
+.main .section3 .lista3 {
+    color: black;
+    margin-top: 25PX;
+    list-style: NONE;
+    margin-left: 2%;
+}
+.main .section3 .lista3 ul li:nth-child(1) {
+    color: orange;
+}
+.main .section3 .lista3 ul li:nth-child(2) {
+    color: red;
+}
+.main .section3 .lista3 ul li:nth-child(3) {
+    color: blue;
+}
+.main .section3 .lista3 ul li:nth-child(4) {
+    color: green;
+}
+.main .CONTACTO{
+    color: #06D2C6;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    margin-left: 2%;
+    font-weight: bold;
+    font-style: normal;
+}
+.main .section4 .inputs {
+   display: flex;
+   flex-direction: column;
+}
+input{
+    margin-top: 25px;
+    margin-bottom: 10px;
+    margin-left: 2%;
+    margin-right: 4%;
+    width: 93%;
+}
+textarea{
+    margin-top: 5px;
+    margin-bottom: 10px;
+    margin-left: 2%;
+    margin-right: 4%;
+    width: 93%;
+}
+button{
+    margin-top: 5px;
+    margin-bottom: 10px;
+    margin-left: 2%;
+    width: 5%;
 }
