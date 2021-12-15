@@ -1,3 +1,6 @@
+*{
+    box-sizing: border-box;
+}
 h2{
     font-size: 24px;
     font-family: arial;
@@ -9,7 +12,7 @@ p{
     color: black;
 }
 img{
-    width: 385;
+    width: 80%;
     height: 182px;
 }
 a {
@@ -20,6 +23,7 @@ body {
     color: white;
     font-family: arial;
     font-size: 16px;
+    margin: auto;
 }
 .header {
     background-color: #00AF1C;
@@ -49,9 +53,10 @@ body {
 }
 .main .fotos1{
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     margin-top: 25px;
     margin-left: 5%;
+    width: 80%;
 }
 .main .HOME{
     color: #3B06D2;
